@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(213, 243, 245);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+
+    border-radius: 5px;
+
+    position: relative;
+    top: 15px;
+}
+
+iframe {
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 0px 20px 0px black;
+    position: relative;
+    top: 60px;
+}
